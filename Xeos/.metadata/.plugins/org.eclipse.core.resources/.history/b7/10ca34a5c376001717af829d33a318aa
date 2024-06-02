@@ -1,0 +1,18 @@
+public class Magazzino {
+	private Prodotto inizio;
+	
+	public Magazzino () {
+		inizio = null;
+	}
+	
+	public boolean esiste (String c) {
+		Prodotto temp = inizio;
+		while(inizio.prox != null) {
+			if (inizio.codice == c) {
+				return true;
+			}
+		}
+		
+		return false;
+	}
+}

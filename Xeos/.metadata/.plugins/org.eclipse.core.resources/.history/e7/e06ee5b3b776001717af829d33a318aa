@@ -1,0 +1,21 @@
+
+public class Ordinazione {
+	private String customerName;
+	private Portata[] portate;
+	private int[] quant;
+	
+	private int count = 0;
+	
+	public static final int MAX_PORTATE = 100;
+	
+	public Ordinazione (String customerName) {
+		this.customerName = customerName;
+		portate = new Portata[MAX_PORTATE];
+		quant = new int[MAX_PORTATE];
+	}
+	
+	public void aggiungiPortata(Portata p, int q) {
+		portate[count] = p;
+		quant[count] = q;
+	}
+}

@@ -1,0 +1,6 @@
+
+public class Eserc2 {
+	public static int[] somma (int[][] m1, int[][] m2) {
+		
+	}
+}

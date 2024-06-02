@@ -1,0 +1,5 @@
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\bin\Release\InventarioHW.exe.config
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\obj\Release\InventarioHW.frmMain.resources
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\obj\Release\InventarioHW.frmInsert.resources
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\obj\Release\InventarioHW.Properties.Resources.resources
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\obj\Release\InventarioHW.csproj.GenerateResource.Cache

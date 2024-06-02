@@ -1,0 +1,18 @@
+
+public class Eserc2 {
+	public static int[][] somma (int[][] m1, int[][] m2) {
+		int rows = m1.length;
+		int cols = m1[0].length;
+		int[][] result = new int[rows][cols];
+		
+		System.out.println(rows + " " + cols);
+		
+		for (int y = 0; y < cols; y++) {
+			for (int x = 0; x < rows; x++) {
+				result[x][y] = m1[x][y] + m2[x][y];
+			}
+		}
+		
+		return result;
+	}
+}

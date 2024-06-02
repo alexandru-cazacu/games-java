@@ -1,0 +1,14 @@
+
+public class Ordinazione {
+	private String customerName;
+	private Portata[] portate;
+	private int[] quant;
+	
+	public Ordinazione (String customerName) {
+		this.customerName = customerName;
+		portate = new Portata[100];
+		quant = new int[100];
+	}
+	
+	
+}

@@ -1,0 +1,21 @@
+public class Prodotto {
+	private String codice;
+	private String desc;
+	private int quant;
+	private Prodotto prox;
+	
+	public Prodotto (String c, String d, int q) {
+		codice = c;
+		desc = d;
+		quant = q;
+		prox = null;
+	}
+	
+	public Prodotto getNext() {
+		return prox;
+	}
+	
+	public void setNext(Prodotto p) {
+		prox = p;
+	}
+}

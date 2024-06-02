@@ -1,0 +1,3 @@
+INDEX VERSION 1.130+C:\Users\stagista11\Desktop\Alexandru Cazacu\.metadata\.plugins\org.eclipse.jdt.core
+4255648806.index
+3605157242.index

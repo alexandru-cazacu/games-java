@@ -1,0 +1,6 @@
+C:\Users\s.ced\documents\visual studio 2015\Projects\InfoPC\bin\Release\InfoPC.exe.config
+C:\Users\s.ced\documents\visual studio 2015\Projects\InfoPC\bin\Release\InfoPC.exe
+C:\Users\s.ced\documents\visual studio 2015\Projects\InfoPC\bin\Release\InfoPC.pdb
+C:\Users\s.ced\documents\visual studio 2015\Projects\InfoPC\obj\Release\InfoPC.csprojResolveAssemblyReference.cache
+C:\Users\s.ced\documents\visual studio 2015\Projects\InfoPC\obj\Release\InfoPC.exe
+C:\Users\s.ced\documents\visual studio 2015\Projects\InfoPC\obj\Release\InfoPC.pdb

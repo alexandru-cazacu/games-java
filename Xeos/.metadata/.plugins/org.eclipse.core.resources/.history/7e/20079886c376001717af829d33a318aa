@@ -1,0 +1,7 @@
+public class Magazzino {
+	private Prodotto inizio;
+	
+	public Magazzino () {
+		inizio = null;
+	}
+}

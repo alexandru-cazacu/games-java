@@ -1,0 +1,8 @@
+
+public class Eserc2 {
+	public static int[] somma (int[][] m1, int[][] m2) {
+		int rows = m1.length;
+		int cols = m1[0].length;
+		int[][] = new int[m1[0].length][];
+	}
+}

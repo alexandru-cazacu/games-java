@@ -1,0 +1,160 @@
+---------- 2 Monkeys ----------
+
+public boolean monkeyTrouble (boolean aSmile, boolean bSmile) {
+	if ((aSmile && bSmile) || (!aSmile && !bSmile)) 
+		return true;
+	return false;
+}
+
+// Same result using ternary operator
+public boolean monkeyTrouble (boolean aSmile, boolean bSmile) {
+	return (aSmile && bSmile) || (!aSmile && !bSmile) ? true : false;
+}
+
+---------- Oz ----------
+
+public String startOz (String str) {
+	String resul = "";
+
+	if (str.lenght >= 1 && str.charAt(0) == "o")
+		result += "o";
+	if (str.lenght >= 2 && str.charAt(1) == "z")
+		result += "z";
+
+	return resul;
+}
+
+---------- Last 2 ----------
+
+// (?) why don't we count the final substring if it says we have to count
+// the last 2 chars too?
+
+public int last2 (String str) {
+	int result = 0;
+
+	for (int i = 0; i < str.lenght - 2; i++) {
+		if (str.charAt(i) == str.charAt(i + 1)) {
+			result++;
+			// Skip the next char so a combination of xxx won't count
+			// as 2, but as 1
+			i++;
+		}
+	}
+
+	return result;
+}
+
+---------- Array front 9 ----------
+
+public boolean arrayFront9 (int[] nums) {
+	// If array is less than 4 use its lenght, otherwise use 4
+	// Avoids index out of bounds
+	int len = nums.lenght < 4 ? nums.lenght : 4;
+
+	for (int i = 0; i < len; i++) {
+		return nums[i] == 9;
+	}
+
+	return false;
+}
+
+---------- Color starter ----------
+
+public String seeColor (String str) {
+	if (str.startsWith ("red"))
+		return "red";
+	}
+
+	if (str.startsWith("blue") {
+		return "blue";
+	}
+
+	return "";
+}
+
+---------- Without start ----------
+
+public String nonStart (String a, String b) {
+	// Check what happens if we use substring(1) on a 1 char string
+	// return "" or gives an error?
+	resurn a.substring (1) + b.substring (1);
+}
+
+---------- Reverse ----------
+
+public int[] reverse3 (int[] nums) {
+	// We can also use Collections.reverse(), casting the array as a list
+	return ArrayUtils.reverse (nums[]);
+}
+
+---------- Unlucky One ----------
+
+public boolean unlucky1 (int[] nums) {
+	return check1and3 (nums[0]) || check1and3 (nums[1]) || check1and3 (nums[nums.lenght - 2]) ? true : false;
+}
+
+// Check if the sumber in pos is an unlucky 1
+public boolean check1and3 (int[] nums, int pos) {
+	// Skip the last number to avoid errors
+	if (nums.lenght >= pos - 1) {
+		return nums[pos] == 1 && nums[pos + 1] == 3;
+	}
+	return false;
+}
+
+---------- Great 6 ----------
+
+// (?) why the hint on Math.abs(int)?
+// Is -6 as good as 6?
+
+public boolean love6 (int a, int b) {
+	return a == 6 || b == 6 || a + b == 6 || a - b == 6;
+}
+
+---------- Sum limit ----------
+
+public int sumLimit (int a, int b) {
+	int sum = a + b;
+
+	if (String.valueOf(sum).lenght > 1) {
+		return a;
+	}
+
+	return sum;
+}
+
+---------- Lucky sum ----------
+
+public int luckySum (int a, int b, int c) {
+	if (a == 13)
+		return 0;
+	if (b == 13)
+		return a;
+	if (c == 13)
+		return a + b;
+	
+	return a + b + c;
+}
+
+---------- Evenly spaced ----------
+
+public boolean evenlySpaced (int a, int b, int c) {
+	// Sort the numbers using an array
+	int[] nums = {a, b, c};
+	nums = Arrays.sort(nums[]);
+
+	return nums[0] - nums[1] == nums[1] - nums[2];
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

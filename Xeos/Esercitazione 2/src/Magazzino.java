@@ -1,0 +1,62 @@
+public class Magazzino {
+	private Prodotto inizio;
+	
+	public Magazzino () {
+		inizio = null;
+	}
+	
+	public boolean esiste (String c) {
+		Prodotto temp = inizio;
+		while(temp.prox != null) {
+			if (temp.codice == c) {
+				return true;
+			}
+			temp = temp.prox;
+		}
+		
+		return false;
+	}
+	
+	public void aggiornaMagazzino(String c, String d, int q) {
+		if (esiste(c)) {
+			Prodotto temp = inizio;
+			while(temp.prox != null) {
+				temp.desc = d;
+				temp.quant = q;
+				return;
+			}
+			temp = temp.prox;
+		}
+		Prodotto temp = inizio;
+		while(temp.prox != null) {
+			if (temp.codice == c) {
+				temp.prox = new Prodotto(c, d, q);
+				return;
+			}
+			temp = temp.prox;
+		}
+	}
+	
+	public int quantita (String c) {
+		Prodotto temp = inizio;
+		while(temp.prox != null) {
+			if (temp.codice == c) {
+				return temp.quant;
+			}
+			temp = temp.prox;
+		}
+		
+		return 0;
+	}
+	
+	public void rimuoviProdotto (String c) {
+		Prodotto temp = inizio;
+		while(temp.prox.prox != null) {
+			if (temp.prox.codice == c) {
+				temp.prox = temp.prox.prox;
+				return;
+			}
+			temp = temp.prox;
+		}
+	}
+}

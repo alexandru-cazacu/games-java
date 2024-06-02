@@ -1,0 +1,22 @@
+
+public class Ordinazione {
+	private String customerName;
+	private Portata[][] portate;
+	
+	private int count = 0;
+	
+	public Ordinazione (String customerName) {
+		this.customerName = customerName;
+		portate = new Portata[100][2];
+	}
+	
+	public void aggiungiPortata(Portata p, int q) {
+		portate[count][0] = p;
+		portate[count][1] = q;
+	}
+	
+	private class Piatto {
+		public Portata portat;
+		public int quant;
+	}	
+}

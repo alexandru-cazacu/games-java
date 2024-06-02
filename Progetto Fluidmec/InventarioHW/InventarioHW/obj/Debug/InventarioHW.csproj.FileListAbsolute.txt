@@ -1,0 +1,12 @@
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\bin\Debug\InventarioHW.exe.config
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\bin\Debug\InventarioHW.exe
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\bin\Debug\InventarioHW.pdb
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\obj\Debug\InventarioHW.csprojResolveAssemblyReference.cache
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\obj\Debug\InventarioHW.frmMain.resources
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\obj\Debug\InventarioHW.Properties.Resources.resources
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\obj\Debug\InventarioHW.csproj.GenerateResource.Cache
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\obj\Debug\InventarioHW.exe
+c:\users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\obj\Debug\InventarioHW.pdb
+C:\Users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\obj\Debug\InventarioHW.frmSub.resources
+C:\Users\s.ced\documents\visual studio 2015\Projects\InventarioHW\InventarioHW\obj\Debug\InventarioHW.frmCategory.resources
+C:\Users\s.ced\Documents\Visual Studio 2015\Projects\InventarioHW\InventarioHW\obj\Debug\InventarioHW.frmOptions.resources

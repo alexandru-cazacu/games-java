@@ -1,0 +1,14 @@
+c:\users\s.ced\documents\visual studio 2015\Projects\DataWare\bin\Debug\DataWare.exe.config
+c:\users\s.ced\documents\visual studio 2015\Projects\DataWare\bin\Debug\DataWare.exe
+c:\users\s.ced\documents\visual studio 2015\Projects\DataWare\bin\Debug\DataWare.pdb
+c:\users\s.ced\documents\visual studio 2015\Projects\DataWare\obj\Debug\DataWare.csprojResolveAssemblyReference.cache
+c:\users\s.ced\documents\visual studio 2015\Projects\DataWare\obj\Debug\DataWare.Properties.Resources.resources
+c:\users\s.ced\documents\visual studio 2015\Projects\DataWare\obj\Debug\DataWare.csproj.GenerateResource.Cache
+c:\users\s.ced\documents\visual studio 2015\Projects\DataWare\obj\Debug\DataWare.exe
+c:\users\s.ced\documents\visual studio 2015\Projects\DataWare\obj\Debug\DataWare.pdb
+c:\users\s.ced\documents\visual studio 2015\Projects\DataWare\obj\Debug\DataWare.frmMain.resources
+C:\Users\s.ced\documents\visual studio 2015\Projects\DataWare\obj\Debug\DataWare.frmAddCategory.resources
+C:\Users\s.ced\documents\visual studio 2015\Projects\DataWare\obj\Debug\DataWare.Forms.frmAddMain.resources
+C:\Users\s.ced\documents\visual studio 2015\Projects\DataWare\obj\Debug\DataWare.Forms.frmEditCategory.resources
+C:\Users\s.ced\documents\visual studio 2015\Projects\DataWare\obj\Debug\DataWare.Forms.frmEditMain.resources
+C:\Users\s.ced\documents\visual studio 2015\Projects\DataWare\obj\Debug\DataWare.Forms.frmSearch.resources
